@@ -443,7 +443,8 @@ body {
 		width: 220px;
 		margin: 0 auto;
 	}
-
+	.title { height: 30px; }
+	.skills .row span { width: 280px; }
 	.flex > .col:first-child { margin-top: 0; }
 	.flex > .col { margin-top: 10px; }
 }
