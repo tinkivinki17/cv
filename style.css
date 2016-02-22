@@ -421,7 +421,9 @@ body {
 	border-radius: 100%;
 }
 
-@media (screen and (max-width: 910px)) or (screen and (orientation: portrait)) {
+@media all and (max-width: 910px),
+	   all and (orientation: portrait) {
+
 	.flex { 
 		display: block;
 		width: 430px;
