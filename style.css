@@ -158,6 +158,11 @@ body {
 .career .title:after { content: '\f004'; }
 .works .title:after { content: '\f00c'; }
 .about .title:after { content: '\f010'; }
+.certs .title:after { content: '\f016'; }
+
+.career .wrapper {
+	max-width: 1150px;
+}
 
 .main {
 	width: 640px;
@@ -421,6 +426,24 @@ body {
 	border-radius: 100%;
 }
 
+.certs .flex {
+	-webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cert {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.cert-title {
+	font-weight: 400;
+	font-size: 24px;
+	padding: 20px;
+	margin-top: 60px;
+}
+
 @media all and (max-width: 910px),
 	   all and (orientation: portrait) {
 
@@ -447,4 +470,10 @@ body {
 	.skills .row span { width: 280px; }
 	.flex > .col:first-child { margin-top: 0; }
 	.flex > .col { margin-top: 10px; }
+
+	.cert.flex {
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;		
+	}
 }
